@@ -33,7 +33,7 @@ Bootstrap → Layout responsive e componenti pronti all’uso.
 Figma → Progettazione wireframe e flussi logici prima dello sviluppo.
 
 
-FUNZIONALITA' PROINCIPALI:
+FUNZIONALITA' PRINCIPALI:
 
 Layout responsive ottimizzato per desktop, tablet e smartphone.
 
