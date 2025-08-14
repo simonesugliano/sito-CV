@@ -88,3 +88,5 @@ Le immagini e i contenuti multimediali non sono inclusi, ma il codice è complet
 
 -La Home page è stata ottimizzata per mantenere proporzioni e layout corretti fino a uno zoom minimo del 33%.
 Ulteriori adattamenti per livelli di zoom inferiori sono previsti in aggiornamenti futuri.
+
+-La home page è stata realizzata interamente a mano, senza l’uso di framework o librerie: solo HTML, CSS e JavaScript puro per struttura, stile e interattività.
