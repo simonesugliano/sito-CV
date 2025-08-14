@@ -13,14 +13,16 @@
 
 
 
-## IL MIO PERCORSO PERSONALE – SITO WEB
+## IL MIO PERCORSO PERSONALE – SITO WEB  
+
 
 Questo progetto racconta il mio percorso personale e professionale in chiave ironica e divertente.
 È stato pensato come una presentazione creativa delle mie competenze, usando uno stile leggero e accattivante per trasmettere non solo ciò che so fare, ma anche il mio modo di essere.
 
 ---
 
-## OBIETTIVO DEL PROGETTO:
+## OBIETTIVO DEL PROGETTO:   
+
 
 Presentare il mio profilo in modo originale.
 
@@ -34,7 +36,8 @@ Dimostrare capacità di sviluppatore e di designer.
 
 ---
 
-## ANTEPRIMA DEL SITO;
+## ANTEPRIMA DEL SITO;  
+
 ### Qui vedi l'impostazione della home page. <br><br>
 
 ![Homepage del sito](/img/home-full.png)
@@ -43,7 +46,7 @@ Dimostrare capacità di sviluppatore e di designer.
 #### La pagina “Chi sono” include componenti Bootstrap (navbar e footer) e una sidebar costruita a mano, contenente i link per visualizzare e scaricare il CV, oltre ai collegamenti social.
 #### Particolare del menu a tendina (visibile in tutte le pagine "Bootstrap") con relativi comandi
 #### Particolare footer Bootstrap, con una delle sezioni ancora in costruzione
-#### Alcuni widget usati per rendere l'esperienza di navigazione varia e coinvolgente
+#### Alcuni widget usati per rendere l'esperienza di navigazione varia e coinvolgente <br><br>
 ![Homepage del sito](/img/screen-sticv.png)
 
 ---
