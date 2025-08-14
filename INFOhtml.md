@@ -2,6 +2,10 @@
 
 ---
 
+[Visita il sito online](https://sitocv.altervista.org)
+
+---
+
 La struttura dell’intero sito è stata progettata con HTML5, ponendo particolare attenzione all’utilizzo corretto dei tag semantici, all’organizzazione responsive e alla possibilità di integrazione con altri miei lavori online. L’obiettivo è garantire un’organizzazione chiara dei contenuti e una base solida per gli stili e le funzionalità interattive.
 
 La navigazione è pensata per un’esperienza semplice e diretta: ogni pagina è collegata in modo intuitivo e accessibile. Per dimostrare competenze specifiche nella gestione dei breakpoint, una sezione della homepage è stata rimossa e spostata in una pagina separata, visibile solo su smartphone.
