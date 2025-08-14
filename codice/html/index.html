@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sito CV Sugliano Simone</title>
+    <!-- <link rel="stylesheet" href="/sitoCurriculum/css/style.css"> -->
+    <link rel="stylesheet" href="/css/prova.css">
+</head>
+
+<body class="riduzione">
+    <!-----------------------------------------------------------------------------------------------------------BLOCCO MODALE---------------------------------------------------------------------------------------------------------------------->
+
+    <div id="modale" class="modale">
+        <button id="countdownChiudi" class="chiudi">10</button>
+        <p class="mod">
+            Benvenuto nel mio sito personale – un mix tra CV, portfolio e sperimentazione creativa
+        </p>
+        <p class="mod">
+            Prima di lasciarti esplorare, ci tengo a spiegarti alcune cose:
+        </p>
+        <ul style="text-align: left;" class="mod">
+            <li>La Home Page è creata interamente a mano, con HTML, CSS e JavaScript puri.</li>
+            <li>La modale che stai vedendo è creata manualmente, con html / js.</li>
+            <li>I video presenti sono stati realizzati con Canva, Figma e altri strumenti digitali.</li>
+            <li>Tutti i link sono perfettamente funzionanti: ti invito a cliccarli e curiosare liberamente.</li>
+            <li>Il design è completamente responsive, fino a 60px! Alcune sezioni vengono spostate o
+                semplificate per migliorare la navigazione da mobile.</li>
+        </ul>
+        <p class="mod">
+            Ogni pagina ha una sua identità e una nota tecnica dedicata. Dai un’occhiata anche alle sezioni extra!
+        </p>
+        <p class="mod"> 
+            Buona navigazione… e grazie per il tempo che hai deciso di dedicarmi! 🙏
+        </p>
+
+    </div>
+    <!-----------------------------------------------------------------------------------------------------------FINE BLOCCO MODALE ---------------------------------------------------------------------------------------------------------------------->
+
+
+    <!-----------------------------------------------------------------------------------------------------------BLOCCO HEADER E NAVBAR ---------------------------------------------------------------------------------------------------------------------->
+
+    <!--navbar con lista ul;
+-presentazione
+-cv pdf
+, mio nome, mio logo, un paio di contatti rapidi-->
+    <header>
+        <!--logo con link a linkedin-->
+        <a href="https://www.linkedin.com/in/simone-sugliano-95388022b/" target="_blank">
+            <img class="logo contenuti" src="/assets/img/logoRapace.png" alt="Logo personale di un rapace stilizzato">
+        </a>
+        <h1 id="nome">Sito Curriculum Sugliano Simone</h1>
+
+        <!--label stilizzata: diventa l’icona hamburger -->
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="hamburger">
+            <span></span><span></span><span></span>
+        </label>
+
+        <!--lista voci menu navbar -->
+        <ul class="navbarList">
+            <li><a class="menunav" href="/index.html">Home</a></li>
+            <li><a class="menunav" href="/html/provaChiSono.html" target="_blank">Chi sono</a></li>
+            <li><a class="menunav" href="/html/provaImieiAttestati.html" target="_blank">Attestati</a></li>
+            <li><a class="menunav" href="/html/provaContatti.html" target="_blank">Contatti</a></li>
+            <li><a class="menunav solocell" href="/html/soloSmartphone.html" target="_blank">Extra</a>
+            </li>
+        </ul>
+
+    </header>
+
+    <!-----------------------------------------------------------------------------------------------------------BLOCCO HERO ---------------------------------------------------------------------------------------------------------------------->
+
+    <!--nain con hero e un paio di cose scherzose-->
+    <div class="separatore"></div>
+
+    <main>
+
+        <!--spazio per hero-->
+        <div class="hero">
+            <video id="myHero" class="video" controls autoplay muted loop height="100%" width="100%" ;>
+                <source src="/assets/video/defHero.mp4" type="video/mp4">
+                Il tuo browser non supporta il tag video.
+            </video>
+
+
+            <div id="overlay" class="overlay"></div>
+
+
+        </div>
+        <!--fine spazio -->
+
+        <div class="separatore"></div> <!--separatore, un div con sfondo nero per non usare <br> -->
+
+
+        <div class="spazio"></div> <!--spazio, un div vuoto block che divide -->
+        <!-----------------------------------------------------------------------------------------------------------BLOCCO CARDS ---------------------------------------------------------------------------------------------------------------------->
+
+        <h1 class="titoloCards">Intrattenimento, curiosità.. insomma, COSE.</h1>
+
+        <div class="spazio"></div> <!--spazio, un div vuoto block che divide -->
+
+        <!--div con display flex sei cards in cui mettere dei giochini e video-->
+        <div class="container">
+
+            <!--gioco della carta più  alta con math random e css figo-->
+            <div class="card1 gioco">
+                <a href="/CartaAltaConImmaginidelleCarte/cartaAltaConImmaginidelleCarte/varianteCartaAltaConImmagini/src/html/cartaAlta.html"
+                    target="_blank">
+                    <p class="carte">Batti il computer baby..</p>
+                </a>
+            </div>
+            <div class="card">
+                <p class="intro">Prima di continuare a conoscermi, impreca anche tu con questo fastidiosissimo giochino.</p>
+            </div>
+
+            <!--sequenza uguale ma card invertite, più carino e dinamico..-->
+
+            <!--cards con testo e video della mia esperienza di apicoltura-->
+            <div class="card">
+                <p class="intro">Qui un breve spin off della mia lunga <span class="barrato">schiavitù</span>
+                    esperienza in Borelli Group.
+                    E stato uno dei milioni di progetti pensati per andarmene.
+                    Dovrò omettere il 90% dei tentativi di "evasione", ma sarò più che felice di raccontarti a voce tutti quelli che avrai voglia di ascoltare!!
+                    Non immagini cosa non mi sono inventato. 😅
+                </p>
+            </div>
+            <div class="card1 video">
+                <video id="myHero" class="video" controls play muted loop height="100%" width="100%" ;>
+                    <source src="/assets/video/apicoltura.mp4" type="video/mp4">
+                    Il tuo browser non supporta il tag video.
+                </video>
+            </div>
+
+            <!--cards con testo e video della mia esperienza di ...............................-->
+            <div class="card1">
+                                <video id="myHero" class="video" controls play muted loop height="100%" width="100%" ;>
+                    <source src="/assets/video/The.mp4" type="video/mp4">
+                    Il tuo browser non supporta il tag video.
+                </video>
+
+            </div>
+            <div class="card">
+<p class="intro">Approfitto di questo mio spazio personale per anticipare una domanda: <span class="dove">DOVE TI VEDI TRA CINQUE, DIECI, X ANNI</span>? <br><br>
+Adesso Ve lo dico!!</p>
+            </div>
+        </div>
+        <!--FINE div con display flex a sei cards sfalsate-->
+
+
+        <div class="separatore"></div> <!--separatore, un div con sfondo nero per non usare <br> -->
+
+
+        <!-----------------------------------------------------------------------------------------------------------BLOCCO TRE COLONNE ---------------------------------------------------------------------------------------------------------------------->
+        <div class="spazio"></div> <!--spazio, un div vuoto block che divide -->
+
+
+        <h1 class="titoloCards">Strumenti per provare ad intercettarmi nel giorno giusto 😅</h1>
+
+
+        <div class="spazio"></div> <!--spazio, un div vuoto block che divide -->
+
+
+        <!--div con display flex a tre colonne *2 in cui mettere cose carine e relativa intro sopra-->
+
+        <!--link alla pagina delle tre colonne, che su smartphone sono eliminate dalla home page per non farla scorrere troppo-->
+        <a id="linkSezioneNascostaSmartphone" class="smartphone" href="/html/soloSmartphone.html">Vedi la
+            pagina dedicata</a>
+        <!--link alla pagina delle tre colonne, che su smartphone sono eliminate dalla home page per non farla scorrere troppo-->
+
+
+        <!--descrizione cards per visualizzazione tablet.. Mi piace di più che stia tutta la intro a parte con collegamenti che scorrono la pagina-->
+        <p class="soloPerTablet">La <a href="#mappa"> <span class="soloTablet">mappa dellaSimocaverna </span></a>in cui dovrei vivere ancora per un pò, le <a href="#tempo"><span class="soloTablet">Previsioni
+                    dell'umore</span></a>, La <a href="#etna"><span class="soloTablet">Webcam live del mio stato
+                    d'animo</span></a>
+            (esssendo monitorata insieme all'Etna non si corrono praticamente mai rischi), le <a
+                href="#quotazioni"><span class="soloTablet">Quotazioni di mercato</span></a> delle finanza mondiale(e
+            quelle riflettono l'umore di tutti😁) ed infine una <a href="#carosello"><span class="soloTablet">Serie di
+                    immagini</span> </a>
+            che in qualche modo ho usato per rappresentarmi.. <span class="soloTablet">DIVERTITI!!</span></p>
+        <!-- FINE descrizione cards per visualizzazione tablet.. Mi piace di più che stia tutta la intro a parte con collegamenti che scorrono la pagina-->
+
+        <!-- PRIMA SERIE DI COLONNE ( 3+3)-->
+
+        <!-- RIGA COLONNE CON DESCRIZIONE-->
+        <div class="colonne">
+            <!-- MAPPA-->
+            <div class="colo1">
+                <p>Ecco la mappa per la Simocaverna. <br><br>
+                    (la cascata, il maggiordomo e tutta la segretezza le ho omesse per motivi di budget).</p>
+            </div>
+            <!-- previsioni-->
+            <div class="colo1">
+                <p>Una panoramica delle previsioni del mio umore per i prossimi X giorni 🤣<br><br>
+                    <a href="https://www.3bmeteo.com/meteo">Clicca qui per le previsioni della Tua Città.</a>
+                </p>
+                <!-- webcam-->
+            </div>
+            <div class="colo1">
+                <p>Come l'<a href="https://it.wikipedia.org/wiki/Etna" target="_blank"
+                        rel="noopener noreferrer">Etna</a>, tranquillo da una sacco di tempo.. <br>
+                    Puoi andare senza pensieri a colpo sicuro, ma puoi dare una controllata per sicurezza se vuoi 😁
+                </p>
+            </div>
+        </div>
+
+        <!-- FINE RIGA COLONNE CON DESCRIZIONE-->
+
+        <!-- SECONDA SERIE DI COLONNE ( 3+3) QUELLE CON LA CICCIA-->
+        <div class="colonne">
+            <!-- MAPPA-->
+            <div id="mappa" class="colo">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2827.6451855925498!2d7.313849376873472!3d44.86951757107038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478825a33d299625%3A0x52c027a997c62121!2sVia%20Cardonata%2C%2034%2C%2010060%20San%20Secondo%20di%20Pinerolo%20TO!5e0!3m2!1sit!2sit!4v1753801662861!5m2!1sit!2sit"
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" class="mappa"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <!-- previsioni-->
+            <div id="tempo" class="colo">
+                <iframe
+                    src="https://www.3bmeteo.com/moduli_esterni/localita_7_giorni_orario/6416/ffffff/fc9b2a/5e5e5e/ffffff/it"
+                    class="meteo" frameborder="0"></iframe>
+            </div>
+            <!-- webcam-->
+            <div id="etna" class="colo">
+                <a href="https://www.skylinewebcams.com/it/webcam/italia/sicilia/catania/eruzione-etna.html"
+                    target="_blank">
+                    <img src="https://embed.skylinewebcams.com/img/5020.jpg" alt="【LIVE】 Eruzione Etna | SkylineWebcams"
+                        class="webcam"></a>
+            </div>
+        </div>
+        <!-----------------------------------------------------------------------------------------------------------FINE BLOCCO TRE *2 COLONNE ---------------------------------------------------------------------------------------------------------------------->
+
+
+        <!-----------------------------------------------------------------------------------------------------------secondo slot di colonne, 2 affiancate---------------------------------------------------------------------------------------------------------------------->
+        <!-- PRIMA  COPPIA DI COLONNE (descrizione) (2+2)-->
+        <div class="colonne">
+            <!-- quotazioni borsa-->
+            <div class="colo3">
+                <p>
+                    Diamola un'occhiata per decidere di che umore saremo durante la giornata.
+                </p>
+            </div>
+            <!-- carosello-->
+            <div class="colo3">
+                <p>
+                    Immagini, solo immmagini. <br>
+                    In un modo o nell'altro rappresentano qualcosa di me, anche se viste insieme non hanno assolutamente
+                    senso 😅
+                </p>
+            </div>
+        </div>
+        <!-- SECONDA SERIE DI COPPIE DI COLONNE ( 3+3) QUELLE CON LA CICCIA-->
+        <div class="colonne">
+            <!-- quotazioni borsa-->
+            <div id="quotazioni" class="colo2">
+                <div class="tradingview-widget-container">
+                    <div class="tradingview-widget-container__widget"></div>
+                    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/"
+                            rel="noopener nofollow" target="_blank"><span class="blue-text">Market data by
+                                TradingView</span></a></div>
+                    <script type="text/javascript"
+                        src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
+                            {
+                                "colorTheme": "dark",
+                                    "locale": "en",
+                                        "largeChartUrl": "",
+                                            "isTransparent": false,
+                                                "showSymbolLogo": true,
+                                                    "backgroundColor": "#0F0F0F",
+                                                        "support_host": "https://www.tradingview.com",
+                                                            "width": "100%",
+                                                                "height": "100%",
+                                                                    "symbolsGroups": [
+                                                                        {
+                                                                            "name": "Indices",
+                                                                            "symbols": [
+                                                                                {
+                                                                                    "name": "FOREXCOM:SPXUSD",
+                                                                                    "displayName": "S&P 500 Index"
+                                                                                },
+                                                                                {
+                                                                                    "name": "FOREXCOM:NSXUSD",
+                                                                                    "displayName": "US 100 Cash CFD"
+                                                                                },
+                                                                                {
+                                                                                    "name": "FOREXCOM:DJI",
+                                                                                    "displayName": "Dow Jones Industrial Average Index"
+                                                                                },
+                                                                                {
+                                                                                    "name": "INDEX:NKY",
+                                                                                    "displayName": "Japan 225"
+                                                                                },
+                                                                                {
+                                                                                    "name": "INDEX:DEU40",
+                                                                                    "displayName": "DAX Index"
+                                                                                },
+                                                                                {
+                                                                                    "name": "FOREXCOM:UKXGBP",
+                                                                                    "displayName": "FTSE 100 Index"
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "name": "Futures",
+                                                                            "symbols": [
+                                                                                {
+                                                                                    "name": "BMFBOVESPA:ISP1!",
+                                                                                    "displayName": "S&P 500"
+                                                                                },
+                                                                                {
+                                                                                    "name": "BMFBOVESPA:EUR1!",
+                                                                                    "displayName": "Euro"
+                                                                                },
+                                                                                {
+                                                                                    "name": "CMCMARKETS:GOLD",
+                                                                                    "displayName": "Gold"
+                                                                                },
+                                                                                {
+                                                                                    "name": "PYTH:WTI3!",
+                                                                                    "displayName": "WTI Crude Oil"
+                                                                                },
+                                                                                {
+                                                                                    "name": "BMFBOVESPA:CCM1!",
+                                                                                    "displayName": "Corn"
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "name": "Bonds",
+                                                                            "symbols": [
+                                                                                {
+                                                                                    "name": "EUREX:FGBL1!",
+                                                                                    "displayName": "Euro Bund"
+                                                                                },
+                                                                                {
+                                                                                    "name": "EUREX:FBTP1!",
+                                                                                    "displayName": "Euro BTP"
+                                                                                },
+                                                                                {
+                                                                                    "name": "EUREX:FGBM1!",
+                                                                                    "displayName": "Euro BOBL"
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "name": "Forex",
+                                                                            "symbols": [
+                                                                                {
+                                                                                    "name": "FX:EURUSD",
+                                                                                    "displayName": "EUR to USD"
+                                                                                },
+                                                                                {
+                                                                                    "name": "FX:GBPUSD",
+                                                                                    "displayName": "GBP to USD"
+                                                                                },
+                                                                                {
+                                                                                    "name": "FX:USDJPY",
+                                                                                    "displayName": "USD to JPY"
+                                                                                },
+                                                                                {
+                                                                                    "name": "FX:USDCHF",
+                                                                                    "displayName": "USD to CHF"
+                                                                                },
+                                                                                {
+                                                                                    "name": "FX:AUDUSD",
+                                                                                    "displayName": "AUD to USD"
+                                                                                },
+                                                                                {
+                                                                                    "name": "FX:USDCAD",
+                                                                                    "displayName": "USD to CAD"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                            }
+                        </script>
+                </div>
+            </div>
+            <!-- carosello -->
+            <div id="carosello" class="colo2 carosello-container">
+                <button onclick="prevSlide()" class="pulsCarorello">⬅</button>
+
+                <div class="carosello-wrapper">
+                    <div class="carosello-slide">
+                        <img src="/assets/img/abbandono.jpg" alt="">
+                        <img src="/assets/img/cagliero.gif" alt="">
+                        <img src="/assets/img/corsa.jpg" alt="">
+                        <img src="/assets/img/jolly.png" alt="">
+                        <img src="/assets/img/cortemilia.jpg" alt="">
+                        <img src="/assets/img/occhiolino.webp" alt="">
+                        <img src="/assets/img/grafico-del-grafico-di-borsa-.webp" alt="">
+                        <img src="/assets/img/vulcano.jpeg" alt="">
+                        <img src="/assets/img/OIP (12).webp" alt="">
+
+                    </div>
+                </div>
+                <button onclick="nextSlide()" class="pulsCarorello pulsCaroselloUscita">➡</button>
+            </div>
+        </div>
+
+        <!-----------------------------------------------------------------------------------------------------------FINE secondo slot di colonne, 2 affiancate---------------------------------------------------------------------------------------------------------------------->
+
+        <div class="spazio"></div><!--spazio, un div vuoto block che divide -->
+
+
+        <div class="separatore"></div> <!--separatore, un div con sfondo nero per non usare <br> -->
+
+        <!-----------------------------------------------------------------------------------------------------------CAMPO INVIO MAIL---------------------------------------------------------------------------------------------------------------------->
+        <div class="spazio"></div><!--spazio, un div vuoto block che divide -->
+
+
+
+        <h2 class="titinviomail">Scrivimi per info, <strong>OFFRIRMI UN LAVORO</strong>, esprimere opinioni,
+            <strong>OFFRIRMI UN LAVORO</strong>, darmi
+            consigli, <strong>OFFRIRMI UN LAVORO</strong>, insultarmi, <strong>OFFRIRMI UN LAVORO</strong>, ecc..😉
+        </h2>
+        <div class="spazio"></div>
+
+        <div class="mail">
+            <form class="formInvioMail" action="https://formsubmit.co/1988simonesugliano@libero.it" method="POST">
+                <input type="text" name="name" required class="invioMail" placeholder="Scrivi qui il Tuo nome"><br>
+                <input type="email" name="email" required class="invioMail" placeholder="Scrivi qui la Tua mail"><br>
+                <textarea id="messaggio" class="invioMail textarea" name="messaggio" rows="10" cols="50" required
+                    placeholder="Scrivi qui il Tuo messaggio. Ti risponderò con piacere il prima possibile!"></textarea>
+                <br>
+                <button type="submit" class="buttonmail">INVIA</button>
+            </form>
+
+        </div>
+        <!-----------------------------------------------------------------------------------------------------------FINE CAMPO INVIO MAIL---------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+        <div class="spazio"></div><!--spazio, un div vuoto block che divide -->
+
+
+
+
+
+
+
+        <div class="separatore viaDueCinquanta"></div><!--separatore, un div con sfondo nero per non usare <br> -->
+
+
+        <!-----------------------------------------------------------------------------------------------------------TITOLO NEWSLETTER---------------------------------------------------------------------------------------------------------------------->
+
+        <div class="spazio"></div>
+        <h1 class="titsewsletter">Nel caso in cui stessi cercando ispirazione naturalistica..</h1>
+        <div class="spazio"></div>
+        <!-----------------------------------------------------------------------------------------------------------NEWSLETTER ISCERIZIONE, DIV FLEX CON FORM E TESTO AFFIANCATI---------------------------------------------------------------------------------------------------------------------->
+
+        <!--form iscrizione maichimp-->
+        <div id="iscrizione">
+            <div id="mc_embed_shell">
+                <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
+                <style type="text/css">
+                    #mc_embed_signup {
+                        background: #fff;
+                        /* false; */
+                        clear: left;
+                        font: 14px Helvetica, Arial, sans-serif;
+                        width: px;
+                    }
+                </style>
+                <div id="mc_embed_signup">
+                    <form
+                        action="https://altervista.us19.list-manage.com/subscribe/post?u=b015a3331b3c7593bed99b54b&amp;id=7a79c64b4c&amp;f_id=00f3c2e1f0"
+                        method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+                        target="_blank">
+                        <div id="mc_embed_signup_scroll">
+                            <h2>Iscriviti alla nostra newsletter</h2>
+                            <div class="indicates-required"><span class="asterisk">*</span> indica requisiti obbligatori
+                            </div>
+                            <div class="mc-field-group"><label for="mce-EMAIL">Indirizzo email <span
+                                        class="asterisk">*</span></label><input type="email" name="EMAIL"
+                                    class="required email" id="mce-EMAIL" required="" value=""></div>
+                            <div id="mce-responses" class="clear foot">
+                                <div class="response" id="mce-error-response" style="display: none;"></div>
+                                <div class="response" id="mce-success-response" style="display: none;"></div>
+                            </div>
+                            <div aria-hidden="true" style="position: absolute; left: -5000px;">
+                                /* real people should not fill this in and expect good things - do not remove this or
+                                risk form bot signups */
+                                <input type="text" name="b_b015a3331b3c7593bed99b54b_7a79c64b4c" tabindex="-1" value="">
+                            </div>
+                            <div class="optionalParent">
+                                <div class="clear foot">
+                                    <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button"
+                                        value="Subscribe">
+                                    <p style="margin: 0px auto;"><a href="http://eepurl.com/jjabfY"
+                                            title="Mailchimp: l’email marketing è facile e divertente"><span
+                                                style="display: inline-block; background-color: transparent; border-radius: 4px;"><img
+                                                    class="refferal_badge"
+                                                    src="https://digitalasset.intuit.com/render/content/dam/intuit/mc-fe/en_us/images/intuit-mc-rewards-text-dark.svg"
+                                                    alt="Intuit Mailchimp"
+                                                    style="width: 220px; height: 40px; display: flex; padding: 2px 0px; justify-content: center; align-items: center;"></span></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <script type="text/javascript"
+                    src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
+                <script
+                    type="text/javascript">(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; fnames[3] = 'ADDRESS'; ftypes[3] = 'address'; fnames[4] = 'PHONE'; ftypes[4] = 'phone'; fnames[5] = 'BIRTHDAY'; ftypes[5] = 'birthday'; fnames[6] = 'COMPANY'; ftypes[6] = 'text'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script>
+            </div>
+
+            <h2 class="testonewsletter">
+                Sì, ho creato anche un sito per un giardino… immaginario!<br>
+                Questo è un altro progetto del mio portfolio, dove sperimento codice tra rose e righe CSS, che puoi
+                visitare comodamente da <a href="https://supermegaprovesito.altervista.org" target="_blank"
+                    rel="noopener noreferrer">QUI</a><br>
+
+                Se vuoi, puoi iscriverti alla sua <strong class="newsletter">finta, ma REALE</strong> newsletter
+                qui. 🌱
+            </h2>
+        </div>
+
+        <!-----------------------------------------------------------------------------------------------------------FINE DIV FLEX ISCRIZIONE E SOTTO PICCOLO PARAGRAFO DI ANNULLAMENTO CENTRATO ---------------------------------------------------------------------------------------------------------------------->
+        <div class="spazio"></div>
+
+        <p class="annullamento">Se cambi idea, <span class="annulla">puoi annullare l'iscrizione in qualsiasi momento
+            </span>dal nostro sito.</p>
+
+    </main>
+    <!-----------------------------------------------------------------------------------------------------------BLOCCO FOOTER ---------------------------------------------------------------------------------------------------------------------->
+    <div class="separatore"></div>
+
+
+    <div class="foot">
+
+        <!--div centrato con deltro paragrafo-->
+        <div class="dichiarazione">
+            <p>
+                Questo sito non vuole essere perfetto, ma sincero. Ogni riga di codice racconta la mia voglia di
+                crescere.
+                Non ho ancora tutte le risposte, ma so che questo è solo
+                <a href="https://supermegaprovesito.altervista.org" target="_blank">uno degli inizi</a>.
+            </p>
+        </div>
+        <!-- FINE div centrato con deltro paragrafo-->
+
+    </div>
+
+    <div class="icon">
+        <a href="https://www.linkedin.com/in/simone-sugliano-95388022b/" target="_blank">
+            <img src="/assets/img/linkedinGrande.webp" alt="LinkedIn" class="social">
+        </a>
+        <a href="https://www.facebook.com/simone.sugliano.10" target="_blank">
+            <img src="/assets/img/facebook.png" alt="facebook" class="social">
+        </a>
+        <a href="/assets/img/abbiPazienza.gif" target="_blank">
+            <img src="/assets/img/instagram.webp" alt="instagram" class="social">
+        </a>
+        <a href="/assets/img/abbiPazienza.gif" target="_blank">
+            <img src="/assets/img/x.webp" alt="x" class="social">
+        </a>
+
+
+    </div>
+
+
+
+    <script src="/js/prova.js"></script>
+</body>
+
+</html>
