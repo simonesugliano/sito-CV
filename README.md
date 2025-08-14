@@ -47,16 +47,20 @@ screen-sticv
 ## TECNOLOGIA UTILIZZATA:
 
 HTML5 → Struttura semantica e organizzazione dei contenuti. 
-[Vedi codice html](/codice/html)
+[Vedi codice html](/codice/html)  
+
 
 CSS3 → Personalizzazione dello stile e ottimizzazione responsive.
-[Vedi codice css](/codice/css)
+[Vedi codice css](/codice/css)  
+
 JavaScript → Funzionalità interattive (modal, caroselli, gestione contenuti dinamici).
-[Vedi codice lavascript](/codice/js)
+[Vedi codice lavascript](/codice/js)  
+
 Bootstrap → Layout responsive e componenti pronti all’uso.
 
 Figma → Progettazione wireframe e flussi logici prima dello sviluppo, montaggio video.
-![Vedi wireframe e flowchart](/sitoCv/wireframe-flowchart-sitocv.png)
+![Vedi wireframe e flowchart](/sitoCv/wireframe-flowchart-sitocv.png)  
+
 Canva → Montaggio video e contenuti
 
 ---
