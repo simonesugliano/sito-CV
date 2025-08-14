@@ -46,7 +46,8 @@ Dimostrare capacità di sviluppatore e di designer. <br>
 screen-sticv
 ## TECNOLOGIA UTILIZZATA:
 
-HTML5 → Struttura semantica e organizzazione dei contenuti.
+HTML5 → Struttura semantica e organizzazione dei contenuti. 
+![Vedi codice html](/codice/html)
 
 CSS3 → Personalizzazione dello stile e ottimizzazione responsive.
 
