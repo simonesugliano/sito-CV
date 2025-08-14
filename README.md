@@ -9,14 +9,14 @@
 
 ---
 
-##Il Mio Percorso Personale – Sito Web
+## Il Mio Percorso Personale – Sito Web
 
 Questo progetto racconta il mio percorso personale e professionale in chiave ironica e divertente.
 È stato pensato come una presentazione creativa delle mie competenze, usando uno stile leggero e accattivante per trasmettere non solo ciò che so fare, ma anche il mio modo di essere.
 
 ---
 
-##OBIETTIVO DEL PROGETTO:
+## OBIETTIVO DEL PROGETTO:
 
 Presentare il mio profilo in modo originale.
 
@@ -30,12 +30,14 @@ Dimostrare capacità di sviluppatore e di designer. <br>
 
 ---
 
-##Anteprima del sito
+## Anteprima del sito
+#### Qui vedi l'impostazione della home page. <br><br>
 
+![Homepage del sito](/img/homeFull.png)
 
 ---
 
-##TECNOLOGIA UTILIZZATA:
+## TECNOLOGIA UTILIZZATA:
 
 HTML5 → Struttura semantica e organizzazione dei contenuti.
 
@@ -51,7 +53,7 @@ Canva → Montaggio video e contenuti
 
 ---
 
-##FUNZIONALITA' PRINCIPALI:
+## FUNZIONALITA' PRINCIPALI:
 
 Layout responsive ottimizzato per desktop, tablet e smartphone.
 
@@ -66,7 +68,7 @@ Alcuni script personalizzati per migliorare l’esperienza utente.
 ---
 
 
-###Note:
+## Note:
 
 -Per motivi pratici, in questa repo sono stati caricati solo i file HTML, CSS e JavaScript.
 Le immagini e i contenuti multimediali non sono inclusi, ma il codice è completo e navigabile.
