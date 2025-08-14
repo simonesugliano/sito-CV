@@ -67,7 +67,8 @@ Canva → Montaggio video e contenuti
 
 ## FUNZIONALITA' PRINCIPALI:
 
-Layout responsive ottimizzato per desktop, tablet e smartphone.
+Layout responsive ottimizzato per desktop, tablet e smartphone. 
+[Vedi breakpoint](/img/breakpoint.png)
 
 Sezioni animate e interattive.
 
