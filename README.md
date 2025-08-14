@@ -29,7 +29,7 @@ Questo progetto racconta il mio percorso personale e professionale in chiave iro
 
 
 Presentare il mio profilo in modo originale.
-![Vedi il mio CV](/img/cv-simone)
+[Vedi il mio CV](/img/cv-simone.pdf)
 
 Unire contenuti testuali, grafici e interattivi per coinvolgere il visitatore.
 
