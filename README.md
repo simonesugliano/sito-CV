@@ -1,8 +1,8 @@
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=flat)](INFO.md)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white&style=flat)](INFO.md)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat)](INFO.md)
-[![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=white&style=flat)](INFO.md)
-[![AlterVista](https://img.shields.io/badge/Hosting-AlterVista-orange?style=flat)](INFO.md)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=flat)](INFOhtml.md)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white&style=flat)](INFOcss.md)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat)](INFOjs.md)
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=white&style=flat)](INFObootstrap.md)
+[![AlterVista](https://img.shields.io/badge/Hosting-AlterVista-orange?style=flat)](INFOaltervista.md)
 
 # sito-CV
 Il sito che racconta il mio percorso personale in modo ironico e divertente. Progetto realizzato con html ,css, js, bootstrap e qualche widget. <br/>
