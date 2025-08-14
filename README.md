@@ -66,8 +66,10 @@ Alcuni script personalizzati per migliorare l’esperienza utente.
 ---
 
 
-###Nota
+###Note:
 
-Per motivi pratici, in questa repo sono stati caricati solo i file HTML, CSS e JavaScript.
+-Per motivi pratici, in questa repo sono stati caricati solo i file HTML, CSS e JavaScript.
 Le immagini e i contenuti multimediali non sono inclusi, ma il codice è completo e navigabile.
 
+-La Home page è stata ottimizzata per mantenere proporzioni e layout corretti fino a uno zoom minimo del 33%.
+Ulteriori adattamenti per livelli di zoom inferiori sono previsti in aggiornamenti futuri.
