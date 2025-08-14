@@ -1,4 +1,4 @@
-##JavaScript – Funzionalità e interazioni personalizzate
+## JavaScript – Funzionalità e interazioni personalizzate
 
 ---
 
