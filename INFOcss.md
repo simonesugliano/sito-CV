@@ -19,4 +19,5 @@ Il foglio di stile include una versione ottimizzata che migliora la resa grafica
 Nel complesso, ho integrato diverse tecniche di layout: dall’uso dei box model classici (flex, block, inline-block) a sistemi basati su griglie e colonne personalizzate, con l’obiettivo di esplorare e dimostrare una buona familiarità con i selettori CSS, i comportamenti degli elementi e le dinamiche di posizionamento.
 
 Il risultato punta a mantenere un aspetto armonico, lineare e coerente, pur sperimentando soluzioni diverse per ciascuna sezione, in modo da valorizzare tanto il contenuto quanto il codice che lo sostiene.
+
 ---
