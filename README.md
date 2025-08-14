@@ -4,12 +4,12 @@
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=white&style=flat)](INFObootstrap.md)
 [![AlterVista](https://img.shields.io/badge/Hosting-AlterVista-orange?style=flat)](INFOaltervista.md)
 
-# sito-CV
+# SITO CV
 ### Il sito che racconta il mio percorso personale in modo ironico e divertente. Progetto realizzato con html ,css, js, bootstrap e qualche widget. <br/>
 
 ---
 
-## Il Mio Percorso Personale – Sito Web
+## IL MIO PERCORSO PERSONALE – SITO WEB
 
 Questo progetto racconta il mio percorso personale e professionale in chiave ironica e divertente.
 È stato pensato come una presentazione creativa delle mie competenze, usando uno stile leggero e accattivante per trasmettere non solo ciò che so fare, ma anche il mio modo di essere.
@@ -30,7 +30,7 @@ Dimostrare capacità di sviluppatore e di designer. <br>
 
 ---
 
-## Anteprima del sito
+## ANTEPRIMA DEL SITO;
 #### Qui vedi l'impostazione della home page. <br><br>
 
 ![Homepage del sito](/img/home-full.png)
@@ -68,7 +68,7 @@ Alcuni script personalizzati per migliorare l’esperienza utente.
 ---
 
 
-## Note:
+## NOTE:
 
 -Per motivi pratici, in questa repo sono stati caricati solo i file HTML, CSS e JavaScript.
 Le immagini e i contenuti multimediali non sono inclusi, ma il codice è completo e navigabile.
