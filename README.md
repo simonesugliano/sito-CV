@@ -59,7 +59,7 @@ JavaScript → Funzionalità interattive (modal, caroselli, gestione contenuti d
 Bootstrap → Layout responsive e componenti pronti all’uso.
 
 Figma → Progettazione wireframe e flussi logici prima dello sviluppo, montaggio video.
-[Vedi wireframe e flowchart](/sitoCv/wireframe-flowchart-sitocv.png)  
+[Vedi wireframe e flowchart](/img/wireframe-flowchart-sitocv.png)  
 
 Canva → Montaggio video e contenuti
 
