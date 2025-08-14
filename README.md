@@ -5,15 +5,18 @@
 [![AlterVista](https://img.shields.io/badge/Hosting-AlterVista-orange?style=flat)](INFOaltervista.md)
 
 # sito-CV
-Il sito che racconta il mio percorso personale in modo ironico e divertente. Progetto realizzato con html ,css, js, bootstrap e qualche widget. <br/>
+### Il sito che racconta il mio percorso personale in modo ironico e divertente. Progetto realizzato con html ,css, js, bootstrap e qualche widget. <br/>
 
-Il Mio Percorso Personale – Sito Web
+---
+
+##Il Mio Percorso Personale – Sito Web
 
 Questo progetto racconta il mio percorso personale e professionale in chiave ironica e divertente.
 È stato pensato come una presentazione creativa delle mie competenze, usando uno stile leggero e accattivante per trasmettere non solo ciò che so fare, ma anche il mio modo di essere.
 
+---
 
-OBIETTIVO DEL PROGETTO:
+##OBIETTIVO DEL PROGETTO:
 
 Presentare il mio profilo in modo originale.
 
@@ -25,8 +28,14 @@ Dimostrare capacità di progettazione interfaccia user friendly.
 
 Dimostrare capacità di sviluppatore e di designer. <br>
 
+---
 
-TECNOLOGIA UTILIZZATA:
+##Anteprima del sito
+
+
+---
+
+##TECNOLOGIA UTILIZZATA:
 
 HTML5 → Struttura semantica e organizzazione dei contenuti.
 
@@ -40,8 +49,9 @@ Figma → Progettazione wireframe e flussi logici prima dello sviluppo, montaggi
 
 Canva → Montaggio video e contenuti
 
+---
 
-FUNZIONALITA' PRINCIPALI:
+##FUNZIONALITA' PRINCIPALI:
 
 Layout responsive ottimizzato per desktop, tablet e smartphone.
 
@@ -52,3 +62,12 @@ Componenti personalizzati in Bootstrap.
 Modalità di navigazione intuitiva.
 
 Alcuni script personalizzati per migliorare l’esperienza utente.
+
+---
+
+
+###Nota
+
+Per motivi pratici, in questa repo sono stati caricati solo i file HTML, CSS e JavaScript.
+Le immagini e i contenuti multimediali non sono inclusi, ma il codice è completo e navigabile.
+
