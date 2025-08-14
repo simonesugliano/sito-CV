@@ -1,0 +1,358 @@
+/*azzeramento estremo come spiegato nel corso e portato da me per coprire tutte le cose che credo di dovere inserire*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+  box-sizing: border-box;
+}
+/* HTML5 display-role reset per vecchi browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;/*evita sovrapposizioni*/
+}
+
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*---------------------------------------------------------------FINE RESET---------------------------------------------------------------------------------------------------*/
+body, footer {
+  background: linear-gradient(-45deg, #1d2b64, #f8cdda, #4facfe, #00f2fe);
+  background-size: 400% 400%;
+  animation: gradientMove 15s ease infinite;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+body{
+   /* background-color: rgba(178, 179, 132, 0.603); */
+}
+/*---------------------------------------------------------------GENERICHE SCRITTURA--------------------------------------------------------------------------------------------------*/
+p{
+  font-size: 2rem;
+}
+/*testo link*/
+a{
+  text-decoration: none;
+  color:rgb(175, 48, 48);
+}
+a:hover{
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+/*FINE testo link*/
+/*---------------------------------------------------------------HEADER + NAVBAR---------------------------------------------------------------------------------------------------*/
+
+/*header dimensioni e sfondo*/
+header{
+    display: flex;
+        flex-direction:row;
+    height: 30vh;
+    width: 100% !important;
+  align-items: center;          /* centra verticalmente */
+  justify-content: space-between; /* logo a sinistra, nav a destra */
+  padding:2rem 1.5rem;
+   /* background-color: rgba(178, 179, 132, 0.603); */
+   position: relative;
+}
+
+/*logo*/
+.logo{
+    height: 20vh;
+    width: auto;
+}
+.logo:hover{
+  background-color:rgba(255, 0, 0, 0.586);
+  border-radius: 30% 0 30% 0;
+}
+/*titolo h1 navbar con mo nome modificato con js*/
+#nome{
+  font-size:2.5em;
+  font-weight: 700;
+}
+/*----------------------------------------navbar--------------------------------*/
+.menunav{
+    text-decoration: none;
+    color: black;
+}
+
+.menunav:hover{
+    color: rgb(202, 77, 4);
+font-size: 3rem;
+font-weight: 700;
+}
+.navbarList{
+    display: flex;
+    list-style: none;
+    font-size: 2em;
+    flex-direction: row;
+    justify-content: center;
+}
+
+li{
+    margin:1em;
+}
+
+/* checkbox e hamburger spariscono sul desktop */
+.nav-toggle,
+.hamburger{ display:none; }
+
+.solocell{
+  display:none;
+}
+
+  /* Mostra il burger, nasconde subito la lista */
+  .hamburger{
+    display:flex;
+    flex-direction:column;
+    gap:5px;
+    cursor:pointer;
+    /* dimensioni & senza bordi/riquadri */
+    width:20%; height:20%; justify-content:center;
+  }
+
+  .hamburger span{
+    height:3px; width:100%;
+    background:#000;        
+    transition:transform 1s ease;
+  }
+
+  /* La nav diventa un menu verticale off-canvas/pop-down */
+  .navbarList{
+    position:absolute;
+    top:100%; right:0;         
+    background:#fff;
+    flex-direction:column;
+    gap:1.2rem;
+    padding:1.5rem 2rem;
+    box-shadow:0 1em 0.9em rgba(0, 0, 0, 0.61);
+    display:none;               /* nascosta di default */
+  }
+
+  .navbarList :hover{
+    color:red;
+    text-decoration: underline;
+  }
+  /* Quando il checkbox è “checked” la nav appare */
+  .nav-toggle:checked + .hamburger + .navbarList{
+    display:flex;
+  }
+
+/*--------------------------------------------------------------- FINE HEADER + NAVBAR---------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------modale di spiegazione approccio e tecniche---------------------------------------------------------------------------------------------------*/
+.overlay, .modale {
+  display: none;
+}
+
+.overlay {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  background: rgba(0,0,0,0.6);
+  z-index: 998;
+}
+
+.modale {
+  position: fixed;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  z-index: 999;
+  max-width: 90%;
+  width: 400px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+.chiudi {
+  pointer-events: none;
+  opacity: 0.7;
+  cursor: default;
+}
+.chiudi.attiva {
+  pointer-events: auto;
+  opacity: 1;
+  cursor: pointer;
+}
+/*--------------------------------------------------------------- FINE modale di spiegazione approccio e tecniche---------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------- colonne in cui mettere mappa, previsioni umore ecc..---------------------------------------------------------------------------------------------------*/
+
+.colonne{
+  /* background-color: salmon; */
+margin-left: 0.5vw;
+margin-right: 0.5vw;
+}
+
+.colo{
+max-height: 51vh;
+width: 100vw ;
+/*border:2px solid green;
+ border-radius: 40px;
+margin-bottom: 5vh;
+background-color: beige;
+ */}
+ 
+.colo1{
+height: fit-content;
+width: 100%;
+margin:5vh 0 5vh 0;
+padding:2%;
+}
+
+p{
+  font-size: 1em;
+}
+
+.meteo{
+height: 100%;
+width: 100%;
+}
+
+.webcam{
+width: 100%;
+}
+
+/*--------------------------------------------------------------- footer---------------------------------------------------------------------------------------------------*/
+footer{
+     /* background-color: rgba(178, 179, 132, 0.603); */
+
+}
+.foot{
+     text-align: center;
+
+    height: auto;
+    width: 100%;
+  padding:2rem 1.5rem;
+   /* background-color: rgba(178, 179, 132, 0.603); */
+
+}
+
+.icon{
+  display: inline;
+  justify-content: space-around;
+  margin:0 auto;
+ margin-left: auto;
+}
+.social{
+  margin-left:15%;
+  width: 4rem;
+}
+
+img:hover{
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+  opacity: 0.7;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.extra{
+    font-size: 0.5em;
+}
+/*--------------------------------------------------------------- FINE footer---------------------------------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------- iscrizione newsletter sito giardinaggio---------------------------------------------------------------------------------------------------*/
+.titsewsletter{
+  font-size: 0.2em;
+  font-weight: 900;
+  color:rgba(13, 89, 13, 0.65);
+  text-align: center;
+}
+#mc-embedded-subscribe{
+    width: 10vw !important;
+}
+#iscrizione{
+  width: 100%;
+}
+#mc_embed_signup{
+  display: inline-block;
+  width: 100%;
+}
+#mce-responses{
+  background-color: #fff;
+}
+.clear{
+   background-color: #fff;
+ 
+}
+#mc_embed_signup_scroll{
+  padding:0;
+  width: 100%;
+}
+#mc_embed_signup_scroll{
+  font-size: 0.5em;
+}
+#mce-EMAIL{
+  height: 2rem;
+}
+.testonewsletter{
+  font-size: 0.7em;
+  padding: 0 2em;
+  line-height: 1.2em;
+  text-align: center;
+}
+.newsletter{
+  font-weight: 900;
+  color:red;
+}
+.annullamento{
+    font-size: 0.7em;
+  margin-bottom: 15%;
+  margin-top:1%;
+  text-align: center;
+}
+.annulla{
+font-weight: 600;
+}
+.refferal_badge{width: 0 !important;}
+/*--------------------------------------------------------------- FINE iscrizione newsletter sito giardinaggio---------------------------------------------------------------------------------------------------*/
+
+
+@media  (max-width:100px) {
+p{
+  font-size: 0.5em;
+}
+.ammullament0{
+    font-size: 0.5em;
+
+}
+.testonewsletter{
+  padding:0;
+  font-size: 0.5em;
+}
+}
+

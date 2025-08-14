@@ -1,0 +1,418 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: rgb(212, 191, 144);
+}
+.riduzione{
+max-width: 2000px;
+margin:0 auto;
+object-fit: contain;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around; /* centro gli elementi orizzontalmente */
+  align-items: flex-start;
+      margin:5% 0 ;
+  gap:1%
+
+}
+
+.spazio{
+    height: 3em;
+}
+.corpoStretto {
+  width: 60%;
+  background-color: whitesmoke;
+      padding: 2em;
+border-radius: 2em;
+}
+
+.sidebar {
+  width: 15%;
+    background-color: whitesmoke;
+border-radius: 2em;
+padding: 2em;
+}
+
+.logo{
+    width: 80%;
+
+}
+.social{
+    max-width: 20%;
+    margin:5%;
+}
+
+.social:hover{
+ transform: translateY(-4px) scale(1.44);
+box-shadow: 0 5px 18px red;
+}
+
+
+p, li{
+    font-size: 1.2em;
+}
+.cv{
+    font-size: 2rem;
+    text-decoration: none;
+    color: darkgrey;
+}
+.cv:hover{
+    font-size: 2.5rem;
+box-shadow: 0 5px 18px black;
+color: red;
+}
+/*cards contatti, hover e tutto*/
+.cardContatti{
+   height: 350px;
+    width: 10rem;
+    border-radius: 15px;
+}
+.cardContatti:hover{
+     transform: translateY(-4px) scale(1.04);
+box-shadow: 0 5px 18px red;
+
+}
+.btnSocial{
+    margin-top:20%;
+}
+
+/*form invio mail diretto*/
+.mail{
+  display: flex;
+  text-align: center;
+}
+.invioMail{
+  width: 40vw;
+  height: 5vh;
+  margin:2%;
+  border-radius: 10px;
+}
+
+.textarea{
+  height: 30vh;
+}
+
+.formInvioMail{
+    margin:0 auto;
+
+}
+
+
+.buttonmail{
+  width: 10vw;
+  height: 5vh;
+  background-color: beige;
+  color:red;
+  border:2px solid blue;
+  border-radius: 7px;
+  margin-bottom:2em
+}
+.buttonmail:hover{
+  color:blue;
+    border:2px solid red;
+  width: 15vw;
+  height: 8vh;
+  font-size: 2em;
+
+}
+
+::placeholder{
+  font-size: 1em;
+  line-height: 200%;
+}
+/*------------------------------------------------------------------------------------------regolo tasto modale-----------------------------------------------------------------------*/
+
+.modale{
+    width: auto%;
+    height: auto;
+}
+.modale:hover{
+         transform: translateY(-4px) scale(1.04);
+box-shadow: 0 5px 18px rgb(17, 17, 17);
+
+}
+
+
+/*------------------------------------------------------------------------------------------regolo navbar e contenuto-----------------------------------------------------------------------*/
+li{
+margin: 0 10%;
+}
+
+.navbar {
+    padding: 1%;
+}
+
+/*--------------------------------------------------------------------------------------------regolo footer e contenuto-----------------------------------------------------------------------*/
+
+.footerText{
+    line-height: 2em;
+}
+.footA{
+    color:red;
+    text-decoration: none;
+    font-weight: 600;
+}
+.footA:hover{
+font-size: 1.3em;
+}
+
+.card-header{
+    height: auto;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------------------------------------------media query----------------------------------------------------------------------------------------------------------------*/
+/*elimino il display teoppo in basso*/
+@media (max-width:70px) {
+    body{
+display: none !important;
+}
+}
+
+@media (min-width:70px) and (max-width:140px) {
+        /*riduco il font del titolo pagina atttestati*/
+
+.attestato{
+    font-size: 1em;
+}
+    /*riduco il font del contenuto del burger menu*/
+
+.nav-item{
+font-size: 0.5em;
+}
+/*riduco il font del contenuto del dropdown nella navbar*/
+.dropdown-item{
+   font-size: 0.5em;
+ 
+}
+
+.card-body, .card-title{
+    font-size: 0.5em;
+}
+/*allargo al 100% il main, che pu pc è contenuto*/
+.corpoStretto{
+    width: 100%;
+        background-color: whitesmoke;
+        font-size: 0.5em;
+        margin: 0;
+}
+/*allargo il testo del footer*/
+.footerText{
+margin: 0 ;
+padding: 0 ;
+}
+.card-header{
+    padding: 0;
+    height: auto;
+    font-size: 0.8rem;
+}
+
+#myTabContent{
+    padding: 0 !important;/*uso important per forzare bootstrap*/
+    font-size: 0.5em;
+}
+.corpoStretto{
+    width: 100%;
+        background-color: rgba(190, 139, 109, 0.171);
+        font-size: 0.5em;
+        padding:10%;
+        margin:0 auto
+}
+
+.wrapper {
+  display: block;
+}
+.sidebar {
+        display: inline-block;
+padding: 5%;
+  width: 100%;
+    background-color: whitesmoke;
+    margin-top:5%;
+    display: block;
+    border-radius: 0;
+}
+
+.logo{
+    width: 40%;
+}
+.social{
+    width: 10vw;
+    margin:1%;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+h2, h3{
+      font-size: 1em;
+}
+.cv{
+          font-size: 0.5em;
+
+}
+#chi-sono{
+    font-size: 0.7em;
+}
+.cardContatti{
+    height: auto;
+    max-width: 90%;
+    margin: 0 auto;
+}
+.invioMail{
+  width: 90vw;
+  height: 5vh;
+  margin:2%;
+  border-radius: 10px;
+}
+.textarea{
+  height: 30vh;
+}
+.buttonmail{
+  width: 90vw;
+  height: 5vh;
+  background-color: beige;
+  color:red;
+  border:2px solid blue;
+  border-radius: 7px;
+}
+.buttonmail:hover{
+  color:blue;
+    border:2px solid red;
+  width: 95vw;
+  height: 8vh;
+  font-size: 1em;
+}
+/*dimensiono tasto modale*/
+.modale{
+    width: 80vw;
+    font-size: 0.5em;
+}
+}
+
+@media (min-width:141px) and (max-width:768px) {
+    /*allargo al 100% il main, che pu pc è contenuto*/
+        body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: rgb(212, 191, 144);
+}
+
+.corpoStretto{
+    width: 100%;
+    background-color: rgb(212, 191, 144);
+        font-size: 0.8em;
+        padding:10%;
+        margin:0 auto
+}
+
+.wrapper {
+  display: block;
+}
+
+.sidebar {
+    display: inline-block;
+border-radius:0;
+  width: 100%;
+    background-color: whitesmoke;
+    margin-top:5%;
+    display: block;
+}
+
+.logo{
+    width: 30%;
+}
+.social{
+    width: 10vw;
+    margin:1%;
+}
+.cv{
+    font-size: 1.5em;
+    text-decoration: none;
+    color:red;
+}
+ul{
+    padding:0
+}
+.cardContatti{
+    height: auto;
+    max-width: 90%;
+    margin:5% auto;
+}
+
+
+.card-header{
+    height: auto;
+    font-size: 1rem;
+}
+
+.invioMail{
+  width: 90vw;
+  height: 5vh;
+  margin:2%;
+  border-radius: 10px;
+}
+.textarea{
+  height: 30vh;
+}
+.buttonmail{
+  width: 90vw;
+  height: 5vh;
+  background-color: beige;
+  color:red;
+  border:2px solid blue;
+  border-radius: 7px;
+}
+.buttonmail:hover{
+  color:blue;
+    border:2px solid red;
+  width: 95vw;
+  height: 8vh;
+  font-size: 2em;
+}
+
+}
+
+@media (min-width:769px) and (max-width:1100px) {
+.sidebar {
+  width: 20%;
+    background-color: whitesmoke;
+border-radius: 2em;
+padding: 2em;
+}
+.cv{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: darkgrey;
+}
+.card-header{
+    height: auto;
+    font-size: 1rem;
+}
+
+}
