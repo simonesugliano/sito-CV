@@ -3,7 +3,7 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat)](INFOjs.md)
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=white&style=flat)](INFObootstrap.md)
 [![AlterVista](https://img.shields.io/badge/Hosting-AlterVista-orange?style=flat)](INFOaltervista.md)
-
+<br><br>
 # SITO CV
 ### Il sito che racconta il mio percorso personale in modo ironico e divertente. Progetto realizzato con html ,css, js, bootstrap e qualche widget. <br/>
 
@@ -26,7 +26,7 @@ Dimostrare l’utilizzo di HTML, CSS, JavaScript e Bootstrap in un progetto real
 
 Dimostrare capacità di progettazione interfaccia user friendly.
 
-Dimostrare capacità di sviluppatore e di designer. <br>
+Dimostrare capacità di sviluppatore e di designer. 
 
 ---
 
