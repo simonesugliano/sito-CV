@@ -28,7 +28,8 @@ Questo progetto racconta il mio percorso personale e professionale in chiave iro
 ## OBIETTIVO DEL PROGETTO:   
 
 
-Presentare il mio profilo in modo originale.
+Presentare il mio profilo in modo originale.  
+
 [Vedi il mio CV](/img/cv-simone.pdf)
 
 Unire contenuti testuali, grafici e interattivi per coinvolgere il visitatore.
@@ -58,19 +59,23 @@ Dimostrare capacità di sviluppatore e di designer.
 
 ## TECNOLOGIA UTILIZZATA:
 
-HTML5 → Struttura semantica e organizzazione dei contenuti. 
+HTML5 → Struttura semantica e organizzazione dei contenuti.  
+
 [Vedi codice html](/codice/html)  
 
 
-CSS3 → Personalizzazione dello stile e ottimizzazione responsive.
+CSS3 → Personalizzazione dello stile e ottimizzazione responsive.  
+
 [Vedi codice css](/codice/css)  
 
-JavaScript → Funzionalità interattive (modal, caroselli, gestione contenuti dinamici).
+JavaScript → Funzionalità interattive (modal, caroselli, gestione contenuti dinamici).  
+
 [Vedi codice javascript](/codice/js)  
 
 Bootstrap → Layout responsive e componenti pronti all’uso.
 
-Figma → Progettazione wireframe e flussi logici prima dello sviluppo, montaggio video.
+Figma → Progettazione wireframe e flussi logici prima dello sviluppo, montaggio video.  
+
 [Vedi wireframe e flowchart](/img/wireframe-flowchart-sitocv.png)  
 
 Canva → Montaggio video e contenuti
@@ -79,7 +84,8 @@ Canva → Montaggio video e contenuti
 
 ## FUNZIONALITA' PRINCIPALI:
 
-Layout responsive ottimizzato per desktop, tablet e smartphone. 
+Layout responsive ottimizzato per desktop, tablet e smartphone.   
+
 [Vedi breakpoint](/img/breakpoint.png)
 
 Sezioni animate e interattive.
