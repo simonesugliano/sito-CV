@@ -50,7 +50,7 @@ Dimostrare capacità di sviluppatore e di designer.
 ![Homepage del sito](/img/screen-sticv.png)
 
 ---
-screen-sticv
+
 ## TECNOLOGIA UTILIZZATA:
 
 HTML5 → Struttura semantica e organizzazione dei contenuti. 
