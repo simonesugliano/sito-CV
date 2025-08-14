@@ -29,5 +29,5 @@ Questo bug mi ha permesso di rientrare nel codice e ottimizzare il CSS in modo p
 
 ---
 
-###Nota:  
+### Nota:  
 questa parte del progetto non è solo una vetrina, ma anche un piccolo racconto dei problemi pratici che si incontrano pubblicando un sito nel mondo reale. E se oggi funziona, è anche grazie a quei piccoli disastri.
