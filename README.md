@@ -35,8 +35,15 @@ Dimostrare capacità di sviluppatore e di designer. <br>
 
 ![Homepage del sito](/img/home-full.png)
 
----
+#### Qui vedi i particolari di: <br><br>
+##### Pagina "chi  sono" con elementi Bootstrap(navbar e footer), sidebar costruita a mano con dentro link per vedere / scaricare CV e i social
+##### Particolare del menu a tendina (visibile in tutte le pagine "Bootstrap") con relativi comandi
+##### Particolare footer Bootstrap, con una delle sezioni ancora in costruzione
+##### Alcuni widget usati per rendere l'esperienza di navigazione varia e coinvolgente
+![Homepage del sito](/img/screen-sticv.png)
 
+---
+screen-sticv
 ## TECNOLOGIA UTILIZZATA:
 
 HTML5 → Struttura semantica e organizzazione dei contenuti.
