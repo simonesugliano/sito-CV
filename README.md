@@ -5,13 +5,15 @@
 [![AlterVista](https://img.shields.io/badge/Hosting-AlterVista-orange?style=flat)](INFOaltervista.md)
 <br><br>
 # SITO CV
-### Il sito che racconta il mio percorso personale in modo ironico e divertente. Progetto realizzato con html ,css, js, bootstrap e qualche widget. <br/>
+### Il sito che racconta il mio percorso personale in modo ironico e divertente. Progetto realizzato con html ,css, js, bootstrap e qualche widget.  
+
 
 
 
 ---
 
-[Visita il sito online](https://sitocv.altervista.org)
+[Visita il sito online](https://sitocv.altervista.org)  
+
 
 ---
 
