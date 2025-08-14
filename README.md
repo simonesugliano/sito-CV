@@ -1,5 +1,5 @@
 # sito-CV
-Il sito che racconta il mio percorso personale in modo ironico e divertente. Progetto realizzato con html ,css, js e bootstrap. <br/>
+Il sito che racconta il mio percorso personale in modo ironico e divertente. Progetto realizzato con html ,css, js, bootstrap e qualche widget. <br/>
 
 Il Mio Percorso Personale – Sito Web
 
