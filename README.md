@@ -33,7 +33,7 @@ Dimostrare capacità di sviluppatore e di designer. <br>
 ## Anteprima del sito
 #### Qui vedi l'impostazione della home page. <br><br>
 
-![Homepage del sito](/img/homeFull.png)
+![Homepage del sito](/img/home-full.png)
 
 ---
 
