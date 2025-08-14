@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extra</title>
+    <link rel="stylesheet" href="/css/extra.css">
+
+</head>
+
+<body>
+    <!--navbar con lista ul;
+-presentazione
+-cv pdf
+, mio nome, mio logo, un paio di contatti rapidi-->
+    <header>
+
+        <h1 id="nome">Sito Curriculum Sugliano Simone</h1>
+
+        <!--label stilizzata: diventa l’icona hamburger -->
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="hamburger">
+            <span></span><span></span><span></span>
+        </label>
+
+        <!--lista voci menu navbar -->
+        <ul class="navbarList">
+            <li><a class="menunav" href="/index.html">Home</a></li>
+
+            <li><a class="menunav" href="/html/provaChiSono.html" target="_blank">Chi sono</a></li>
+            <li><a class="menunav" href="/html/provaImieiAttestati.html" target="_blank">I miei attestati</a>
+            </li>
+            <li><a class="menunav" href="/html/provaContatti.html" target="_blank">Contatti</a></li>
+            <li><a class="menunav solocell" href="/html/soloSmartphone.html" target="_blank">Extra</a>
+            </li>
+        </ul>
+
+    </header>
+
+
+
+
+    <!-----------------------------------------------------------------------------------------------------------BLOCCO COLONNE ---------------------------------------------------------------------------------------------------------------------->
+
+    <!--div con display flex a tre colonne in cui mettere dei giochini-->
+
+
+
+
+    <!--link alla pagina delle colonne, che su smartphone sono eliminate dalla home page per non farla scorrere troppo-->
+
+
+    <div class="spazio"></div>
+
+
+
+
+        <div class="colonne">
+
+        <div class="colo1">
+            <p>Ecco la mappa per la Simocaverna. <br><br>
+                (la cascata, il maggiordomo e tutta la segretezza le ho omesse per motivi di budget).</p>
+        </div>
+
+            <div class="colo">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2827.6451855925498!2d7.313849376873472!3d44.86951757107038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478825a33d299625%3A0x52c027a997c62121!2sVia%20Cardonata%2C%2034%2C%2010060%20San%20Secondo%20di%20Pinerolo%20TO!5e0!3m2!1sit!2sit!4v1753801662861!5m2!1sit!2sit"
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" class="mappa"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
+            <div class="colo1">
+                <p><a href="https://www.3bmeteo.com/meteo" >Clicca qui per le previsioni della Tua Città.</a><br><br>
+                    Una panoramica delle previsioni del mio umore per i prossimi X giorni 🤣</p>
+            </div>
+            <div class="colo">
+                            <div class="colo">
+                <iframe src="https://www.3bmeteo.com/moduli_esterni/localita_7_giorni_orario/6416/ffffff/fc9b2a/5e5e5e/ffffff/it" class="meteo" frameborder="0"></iframe>
+
+            </div>
+
+            </div>
+            <div class="colo1">
+                <p>Come l'<a href="https://it.wikipedia.org/wiki/Etna" target="_blank"
+                        rel="noopener noreferrer">Etna</a>, tranquillo da una sacco di tempo.. <br>
+                    Puoi andare senza pensieri a colpo sicuro, ma puoi dare una controllata per sicurezza se vuoi 😁
+                </p>
+            </div>
+
+            <div id="etna" class="colo" >
+                <a href="https://www.skylinewebcams.com/it/webcam/italia/sicilia/catania/eruzione-etna.html"
+                    target="_blank">
+                    <img src="https://embed.skylinewebcams.com/img/5020.jpg" alt="【LIVE】 Eruzione Etna | SkylineWebcams"
+                        class="webcam"></a>
+            </div>
+
+            <div class="colo1">
+                <p>
+                    Diamola un'occhiata per decidere di che umore saremo durante la giornata.
+                </p>
+            </div>
+
+                        <div id="quotazioni" class="colo">
+                <div class="tradingview-widget-container">
+                    <div class="tradingview-widget-container__widget"></div>
+                    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/"
+                            rel="noopener nofollow" target="_blank"><span class="blue-text">Market data by
+                                TradingView</span></a></div>
+                    <script type="text/javascript"
+                        src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
+                            {
+                                "colorTheme": "dark",
+                                    "locale": "en",
+                                        "largeChartUrl": "",
+                                            "isTransparent": false,
+                                                "showSymbolLogo": true,
+                                                    "backgroundColor": "#0F0F0F",
+                                                        "support_host": "https://www.tradingview.com",
+                                                            "width": "100%",
+                                                                "height": "100%",
+                                                                    "symbolsGroups": [
+                                                                        {
+                                                                            "name": "Indices",
+                                                                            "symbols": [
+                                                                                {
+                                                                                    "name": "FOREXCOM:SPXUSD",
+                                                                                    "displayName": "S&P 500 Index"
+                                                                                },
+                                                                                {
+                                                                                    "name": "FOREXCOM:NSXUSD",
+                                                                                    "displayName": "US 100 Cash CFD"
+                                                                                },
+                                                                                {
+                                                                                    "name": "FOREXCOM:DJI",
+                                                                                    "displayName": "Dow Jones Industrial Average Index"
+                                                                                },
+                                                                                {
+                                                                                    "name": "INDEX:NKY",
+                                                                                    "displayName": "Japan 225"
+                                                                                },
+                                                                                {
+                                                                                    "name": "INDEX:DEU40",
+                                                                                    "displayName": "DAX Index"
+                                                                                },
+                                                                                {
+                                                                                    "name": "FOREXCOM:UKXGBP",
+                                                                                    "displayName": "FTSE 100 Index"
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "name": "Futures",
+                                                                            "symbols": [
+                                                                                {
+                                                                                    "name": "BMFBOVESPA:ISP1!",
+                                                                                    "displayName": "S&P 500"
+                                                                                },
+                                                                                {
+                                                                                    "name": "BMFBOVESPA:EUR1!",
+                                                                                    "displayName": "Euro"
+                                                                                },
+                                                                                {
+                                                                                    "name": "CMCMARKETS:GOLD",
+                                                                                    "displayName": "Gold"
+                                                                                },
+                                                                                {
+                                                                                    "name": "PYTH:WTI3!",
+                                                                                    "displayName": "WTI Crude Oil"
+                                                                                },
+                                                                                {
+                                                                                    "name": "BMFBOVESPA:CCM1!",
+                                                                                    "displayName": "Corn"
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "name": "Bonds",
+                                                                            "symbols": [
+                                                                                {
+                                                                                    "name": "EUREX:FGBL1!",
+                                                                                    "displayName": "Euro Bund"
+                                                                                },
+                                                                                {
+                                                                                    "name": "EUREX:FBTP1!",
+                                                                                    "displayName": "Euro BTP"
+                                                                                },
+                                                                                {
+                                                                                    "name": "EUREX:FGBM1!",
+                                                                                    "displayName": "Euro BOBL"
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "name": "Forex",
+                                                                            "symbols": [
+                                                                                {
+                                                                                    "name": "FX:EURUSD",
+                                                                                    "displayName": "EUR to USD"
+                                                                                },
+                                                                                {
+                                                                                    "name": "FX:GBPUSD",
+                                                                                    "displayName": "GBP to USD"
+                                                                                },
+                                                                                {
+                                                                                    "name": "FX:USDJPY",
+                                                                                    "displayName": "USD to JPY"
+                                                                                },
+                                                                                {
+                                                                                    "name": "FX:USDCHF",
+                                                                                    "displayName": "USD to CHF"
+                                                                                },
+                                                                                {
+                                                                                    "name": "FX:AUDUSD",
+                                                                                    "displayName": "AUD to USD"
+                                                                                },
+                                                                                {
+                                                                                    "name": "FX:USDCAD",
+                                                                                    "displayName": "USD to CAD"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                            }
+                        </script>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-----------------------------------------------------------------------------------------------------------NEWSLETTER ISCRIZIONE, DIV FLEX CON FORM E TESTO ---------------------------------------------------------------------------------------------------------------------->
+    <div id="iscrizione">
+        <div id="mc_embed_shell">
+            <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
+            <style type="text/css">
+                #mc_embed_signup {
+                    background: #fff;
+                    false;
+                    clear: left;
+                    font: 14px Helvetica, Arial, sans-serif;
+                    width: px;
+                }
+
+            </style>
+            <div id="mc_embed_signup">
+                <form
+                    action="https://altervista.us19.list-manage.com/subscribe/post?u=b015a3331b3c7593bed99b54b&amp;id=7a79c64b4c&amp;f_id=00f3c2e1f0"
+                    method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+                    target="_blank">
+                    <div id="mc_embed_signup_scroll">
+                        <h2>Iscriviti alla nostra newsletter</h2>
+                        <div class="indicates-required"><span class="asterisk">*</span> indica requisiti obbligatori
+                        </div>
+                        <div class="mc-field-group"><label for="mce-EMAIL">Indirizzo email <span
+                                    class="asterisk">*</span></label><input type="email" name="EMAIL"
+                                class="required email" id="mce-EMAIL" required="" value=""></div>
+                        <div id="mce-responses" class="clear foot">
+                            <div class="response" id="mce-error-response" style="display: none;"></div>
+                            <div class="response" id="mce-success-response" style="display: none;"></div>
+                        </div>
+                        <div aria-hidden="true" style="position: absolute; left: -5000px;">
+                            /* real people should not fill this in and expect good things - do not remove this or risk
+                            form bot signups */
+                            <input type="text" name="b_b015a3331b3c7593bed99b54b_7a79c64b4c" tabindex="-1" value="">
+                        </div>
+                        <div class="optionalParent">
+                            <div class="clear foot">
+                                <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button"
+                                    value="Subscribe">
+                                <p style="margin: 0px auto;"><a href="http://eepurl.com/jjabfY"
+                                        title="Mailchimp: l’email marketing è facile e divertente"><span
+                                            style="display: inline-block; background-color: transparent; border-radius: 4px;"><img
+                                                class="refferal_badge"
+                                                src="https://digitalasset.intuit.com/render/content/dam/intuit/mc-fe/en_us/images/intuit-mc-rewards-text-dark.svg"
+                                                alt="Intuit Mailchimp"
+                                                style="width: 220px; height: 40px; display: flex; padding: 2px 0px; justify-content: center; align-items: center;"></span></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
+            <script
+                type="text/javascript">(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; fnames[3] = 'ADDRESS'; ftypes[3] = 'address'; fnames[4] = 'PHONE'; ftypes[4] = 'phone'; fnames[5] = 'BIRTHDAY'; ftypes[5] = 'birthday'; fnames[6] = 'COMPANY'; ftypes[6] = 'text'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script>
+        </div>
+
+        <h2 class="testonewsletter">
+            Sì, ho creato anche un sito per un giardino…<br>
+            Questo è un altro progetto del mio portfolio, dove sperimento codice tra rose e righe CSS.<br>
+            Se vuoi, puoi iscriverti alla sua <strong class="newsletter">finta, ma VERA</strong> newsletter qui. 🌱
+        </h2>
+    </div>
+
+    <!-----------------------------------------------------------------------------------------------------------FINE DIV FLEX ISCRIZIONE E SOTTO PICCOLO PARAGRAFO DI ANNULLAMENTO CENTRATO ---------------------------------------------------------------------------------------------------------------------->
+
+    <p class="annullamento">Se cambi idea, <span class="annulla">puoi annullare l'iscrizione in qualsiasi momento
+        </span>dal nostro sito.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="foot">
+
+        <!--div centrato con deltro paragrafo-->
+        <div>
+            <p class="extra">
+                Questo sito non vuole essere perfetto, ma sincero. Ogni riga di codice racconta la mia voglia di
+                crescere.
+                Non ho ancora tutte le risposte, ma so che questo è solo
+                <a href="https://supermegaprovesito.altervista.org" target="_blank">uno degli inizi</a>.
+            </p>
+        </div>
+        <!-- FINE div centrato con deltro paragrafo-->
+
+    </div>
+
+    <div class="icon">
+        <a href="https://www.linkedin.com/in/simone-sugliano-95388022b/" target="_blank">
+            <img src="/assets/img/linkedinGrande.webp" alt="LinkedIn" class="social">
+        </a>
+        <a href="https://www.facebook.com/simone.sugliano.10" target="_blank">
+            <img src="/assets/img/facebook.png" alt="facebook" class="social">
+        </a>
+        <a href="/assets/img/abbiPazienza.gif" target="_blank">
+            <img src="/assets/img/instagram.webp" alt="instagram" class="social">
+        </a>
+        <a href="/assets/img/abbiPazienza.gif" target="_blank">
+            <img src="/assets/img/x.webp" alt="x" class="social">
+        </a>
+
+
+    </div>
+
+
+
+    <script src="/js/prova.js"></script>
+
+</body>
+
+</html>

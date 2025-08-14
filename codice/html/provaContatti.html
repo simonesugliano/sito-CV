@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contatti</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/provaChiSono.css">
+
+</head>
+
+<body class="riduzione">
+    <!-- inizio navbar bootrstap -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a id="nome" class="navbar-brand" href="https://www.linkedin.com/in/simone-sugliano-95388022b" target="_blank">Sito Curriculum Sugliano Simone</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="/html/provaChiSono.html">Chi sono</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/html/provaImieiAttestati.html">Attestati</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/html/provaContatti.html">Contatti</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Rapidi
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="tel:+393923688757">telefono</a></li>
+                            <li><a class="dropdown-item" href="mailto:1988simonesugliano@libero.it">email</a></li>
+                            <li><a class="dropdown-item" href="https://maps.google.com/?q=via+cardonata+34+san+secondo+di+pinerolo"
+     target="_blank" rel="noopener"> piccioni</a></li>
+                   <li><a class="dropdown-item" href="/assets/cv/Simo Curriculum Vitae (2).pdf" target="_blank"
+                  rel="noopener noreferrer">Visualizza CV</a></li>
+
+              <li> <a class="dropdown-item" href="/assets/cv/Simo Curriculum Vitae (2).pdf" download>Scarica CV</a></li>
+
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--fine navbar bootrstap -->
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary modale" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="background-color:red">
+LEGGIMI
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Modale info tecniche</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <!-- Scrollable modal -->
+<div class="modal-dialog modal-dialog-scrollable">
+<div class="p" style="padding:2em">
+  Benvenuto nella sezione contatti.<br>
+  In questa pagina puoi trovare diversi modi per metterti in contatto con me.<br>
+  La modale, così come l’header e il footer, sono stati inseriti utilizzando Bootstrap: è un esempio pratico per mostrare che conosco e so utilizzare questo framework.<br>
+  In questa sezione ho scelto anche di utilizzare alcuni style inline,<b> limitandoli volutamente solo a questa parte per motivi dimostrativi</b>.
+</div>
+
+</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>        
+
+<!--SIDEBAR -->
+    <div class="wrapper">
+        <div class="sidebar">
+            <img class="logo" src="/assets/img/logoRapace.png" alt="logo"> <br>
+
+            <a class="social" href="https://www.linkedin.com/in/simone-sugliano-95388022b" target="_blank">
+                <img src="/assets/img/linkedinGrande.webp" alt="LinkedIn" class="social">
+            </a>
+            <a class="social" href="https://www.facebook.com/simone.sugliano.10" target="_blank">
+                <img src="/assets/img/facebook.png" alt="facebook" class="social">
+            </a>
+            <a class="social" href="/assets/img/ko-knock.gif" target="_blank">
+                <img src="/assets/img/instagram.webp" alt="instagram" class="social">
+            </a>
+            <a class="social" href="/assets/img/no.gif" target="_blank">
+                <img src="/assets/img/x.webp" alt="x" class="social">
+            </a>
+        </div>
+<!--FINE SIDEBAR -->
+
+
+        <!--cards contatti -->
+        <div class="card cardContatti">
+            <!-- visualizzo card, rendo cliccabile numero e metto puksante copia numero -->
+            <img src="/assets/img/telefono.webp" class="card-img-top" alt="logo cellulare">
+            <div class="card-body">
+                <p class="card-text">
+                    <a href="tel:+393923688757" id="phone" class="telefono-link">
+                        <b>+39 392 3688757</b>
+                    </a>
+                    <button class="btnSocial" onclick="copyPhone()">Copia</button>
+                    <span  id="msg"
+                        style="color:green; display:none; margin-left:10px;">Copiato!</span>
+                </p>
+            </div>
+        </div>
+
+        <!-- visualizzo card, rendo cliccabile mail e metto puksante copia mail -->
+
+        <div class="card cardContatti">
+            <img src="/assets/img/mail.webp" class="card-img-top" alt="logo mail">
+            <div class="card-body">
+                <p class="card-text">
+                    <a href="mailto:1988simonesugliano@libero.it" id="mail" class="mail-link">
+                        <b>1988simonesugliano@libero.it</b>
+                    </a><br>
+                    <button class="btnSocial" onclick="copyMail()">Copia</button>
+                    <span  id="msg-mail"
+                        style="color:green; display:none; margin-left:10px;">Copiato!</span>
+                </p>
+
+            </div>
+        </div>
+
+                <!-- visualizzo card, rendo cliccabile telegram e metto puksante copia telegram -->
+        <div class="card cardContatti">
+            <img src="/assets/img/telegram.webp" class="card-img-top" alt="logo telegram">
+            <div class="card-body">
+                <p class="card-text">
+                    <a href="https://t.me/SimOmbro 
+" id="telegram" class="telegram-link" target="_blank" rel="noopener">
+                        <b>@SimOmbro</b>
+                    </a>
+                    <button class="btnSocial"  onclick="copyTelegram()">Copia</button>
+                    <span id="msg-telegram" style="color:green; display:none; margin-left:10px;">Copiato!</span>
+                </p>
+            </div>
+        </div>
+
+                <!-- visualizzo card, rendo cliccabile whatsapp e metto puksante copia whatsapp -->
+        <div class="card cardContatti">
+            <img src="/assets/img/whatsapp.webp" class="card-img-top" alt="logo whatsapp">
+            <div class="card-body">
+                <p class="card-text">
+                    <a href="https://wa.me/393923688757?text=Ciao!%20Ho%20visto%20il%20tuo%20sito" class="whatsapp-btn"
+                        target="_blank" rel="noopener" id="whatsapp-link">
+                        <b>Chatta su WhatsApp</b>
+                    </a>
+                    <button class="btnSocial"  onclick="copyWhatsapp()" class="copy-btn">Copia</button>
+                    <span id="msg-wa" style="color:green; display:none; margin-left:10px;">Copiato!</span>
+                </p>
+            </div>
+        </div>
+    </div>
+
+                <!-- FINE CARDS -->
+
+        <div class="mail">
+            <form class="formInvioMail" action="https://formsubmit.co/1988simonesugliano@libero.it" method="POST" style="max-width: 100%;">
+                <input type="text" name="name" required class="invioMail" placeholder="Scrivi qui il Tuo nome" style="max-width: 100%;"><br>
+                <input type="email" name="email" required class="invioMail" placeholder="Scrivi qui la Tua mail" style="max-width: 100%;"><br>
+                <textarea id="messaggio" class="invioMail textarea" name="messaggio" rows="10" cols="50" required
+                    placeholder="Scrivi qui il Tuo messaggio. Ti risponderò con piacere il prima possibile!" style="max-width: 100%;"></textarea>
+                <br>
+                <button type="submit" class="buttonmail">INVIA</button>
+            </form>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--footer bootrstap -->
+    <div class="card text-center">
+        <div class="card-header">
+            <!-- Nav Tabs -->
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link active" id="giardino-tab" data-bs-toggle="tab" href="#giardino" role="tab">Sito
+                        giardino</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="link-tab" data-bs-toggle="tab" href="#link" role="tab">Link</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="disabled-tab" data-bs-toggle="tab" href="#disabled" role="tab"
+                        aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+
+            <!-- Contenuti -->
+            <div class="tab-content p-3 border border-top-0" id="myTabContent">
+                <div class="tab-pane fade show active" id="giardino" role="tabpanel" aria-labelledby="giardino-tab">
+                    <p class="footerText">
+                        Questo sito non vuole essere perfetto, ma sincero. Ogni riga di codice racconta la mia voglia di
+                        crescere. <br>
+                        Non ho ancora tutte le risposte, ma so che questo è solo
+                        <a href="https://supermegaprovesito.altervista.org" target="_blank" class="footA">uno degli
+                            inizi</a>.
+                    </p>
+                </div>
+                <div class="tab-pane fade" id="link" role="tabpanel" aria-labelledby="link-tab">
+                    <a href="https://supermegaprovesito.altervista.org" target="_blank" class="footA">uno degli iniziIl
+                        mio sito wordpress per il giardino</a> <br>
+                    <a href="../../landingPage/landingPage.html" target="_blank" class="footA">landing page sito
+                        giardino</a>
+                </div>
+                <div class="tab-pane fade" id="disabled" role="tabpanel" aria-labelledby="disabled-tab">
+                    <p>Questa sezione è in costruzione..</p>
+                </div>
+            </div>
+            <!--fine footer bootrstap -->
+
+            <!-- JS Bootstrap (richiede Popper incluso) -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+            <script src="/js/prova.js"></script>
+
+
+</body>
+
+</html>
