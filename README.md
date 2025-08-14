@@ -7,7 +7,11 @@
 # SITO CV
 ### Il sito che racconta il mio percorso personale in modo ironico e divertente. Progetto realizzato con html ,css, js, bootstrap e qualche widget. <br/>
 
+
+
 ---
+
+
 
 ## IL MIO PERCORSO PERSONALE – SITO WEB
 
