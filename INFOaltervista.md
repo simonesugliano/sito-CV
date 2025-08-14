@@ -7,7 +7,7 @@
 ---
 
 
-Il sito è stato pubblicato su Altervista, un servizio gratuito che consente di caricare e visualizzare online pagine HTML/CSS/JS senza bisogno di configurazioni avanzate. L’obiettivo era testare la resa del sito su dispositivi reali e rendere facilmente condivisibile il progetto tramite link.
+#### Il sito è stato pubblicato su Altervista, un servizio gratuito che consente di caricare e visualizzare online pagine HTML/CSS/JS senza bisogno di configurazioni avanzate. L’obiettivo era testare la resa del sito su dispositivi reali e rendere facilmente condivisibile il progetto tramite link.
 
 ### Caricamento con FileZilla: un’avventura a parte
 
