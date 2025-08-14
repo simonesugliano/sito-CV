@@ -30,7 +30,9 @@ JavaScript → Funzionalità interattive (modal, caroselli, gestione contenuti d
 
 Bootstrap → Layout responsive e componenti pronti all’uso.
 
-Figma → Progettazione wireframe e flussi logici prima dello sviluppo.
+Figma → Progettazione wireframe e flussi logici prima dello sviluppo, montaggio video.
+
+Canva → Montaggio video e contenuti
 
 
 FUNZIONALITA' PRINCIPALI:
